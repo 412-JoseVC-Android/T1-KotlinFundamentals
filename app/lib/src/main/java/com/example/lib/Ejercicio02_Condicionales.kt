@@ -22,16 +22,17 @@ fun main() {
             "Reprobado"
         } else if (cal < 70) {
             // TODO: Completa
-            ""
+            "suficiente"
         } else if (cal < 80) {
             // TODO: Completa
-            ""
-        } else if (cal < 90) {
+            "Bien"
+        }
+        else if (cal < 90) {
             // TODO: Completa
-            ""
+            "Notable"
         } else {
             // TODO: Completa
-            ""
+            "Excelente"
         }
 
         println("$cal -> $nivel")
